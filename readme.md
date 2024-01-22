@@ -1,5 +1,5 @@
 ### Minimal VS Code Settings
-This repository contains minimal settings for Visual Studio Code, configured for a clean and productive coding experience.
+This my minimal set up vs code~
 ![mySetup](https://github.com/fathinafiff/vscode_setting/blob/master/img/image02.png)
 
 
