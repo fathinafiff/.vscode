@@ -1,0 +1,100 @@
+{
+  "workbench.colorTheme": "Min Dark",
+  "workbench.iconTheme": "symbols",
+  "editor.renderWhitespace": "all",
+  "editor.codeActionsOnSave": {},
+  "editor.fontFamily": "Dank Mono",
+  "editor.formatOnSave": true,
+  "editor.fontVariations": false,
+  "editor.fontWeight": "normal",
+  "editor.fontLigatures": false,
+  "editor.quickSuggestionsDelay": 5,
+  "path-intellisense.mappings": {},
+  "workbench.settings.applyToAllProfiles": ["editor.fontFamily"],
+  "gitlens.graph.layout": "editor",
+  "git.enableSmartCommit": true,
+  "symbols.hidesExplorerArrows": false,
+  "window.zoomLevel": 1,
+  "editor.lineHeight": 1.8,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.activityBar.location": "hidden",
+  "editor.renderLineHighlight": "gutter",
+  "workbench.editor.labelFormat": "short",
+  "explorer.compactFolders": false,
+  "editor.semanticHighlighting.enabled": false,
+  "breadcrumbs.enabled": false,
+  "editor.minimap.enabled": false,
+  "editor.scrollbar.vertical": "hidden",
+  "window.titleBarStyle": "native",
+  "apc.electron": {
+    "titleBarStyle": "hiddenInset",
+    "trafficLightPosition": {
+      "x": 11,
+      "y": 10
+    },
+    "frame": false
+  },
+  "apc.header": {
+    "height": 36
+  },
+  "apc.listRow": {
+    "height": 24
+  },
+  "apc.font.family": "Inter",
+  "apc.stylesheet": {
+    ".title-label > h2": "display: none",
+    ".editor-actions": "display: none",
+    ".nosidebar .inline-tabs-placeholder": "width: 75px",
+    ".pane-header": "padding: 0 8px",
+    ".pane-body": "padding: 8px",
+    ".split-view-view:first-child .pane-header": "display: none !important;",
+    ".monaco-list-row": "border-radius: 4px;",
+    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
+  },
+  "explorer.sortOrder": "foldersNestsFiles",
+  "explorer.fileNesting.patterns": {
+    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
+    "tailwind.config.js": "tailwind.config*, postcss.config*",
+    ".env.local": ".env*",
+    ".env": ".env*"
+  },
+  "explorer.fileNesting.enabled": true,
+  "workbench.editor.editorActionsLocation": "hidden",
+  "window.commandCenter": false,
+  "window.menuBarVisibility": "toggle",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "Dank Mono",
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.inheritEnv": false,
+  "editor.defaultFormatter": "ms-python.black-formatter",
+  "python.defaultInterpreterPath": "/home/tinapyp/Dependencies/miniconda3/bin/python",
+  "python.terminal.launchArgs": [],
+  "jupyter.interactiveWindow.creationMode": "perFile",
+  "jupyter.interactiveWindow.textEditor.executeSelection": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "[sql]": {
+    "editor.defaultFormatter": "mtxr.sqltools"
+  },
+  "sqltools.connections": [
+    {
+      "mysqlOptions": {
+        "authProtocol": "default",
+        "enableSsl": "Disabled"
+      },
+      "previewLimit": 50,
+      "server": "sejasa-production-slave.cthq7docq4al.us-east-1.rds.amazonaws.com",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "SejasaDb",
+      "database": "heroku_app_db",
+      "username": "andito",
+      "password": "O5EIZ9f25iA63uzjZfN6jY0C5"
+    }
+  ],
+}
