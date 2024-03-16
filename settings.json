@@ -80,21 +80,5 @@
   },
   "[sql]": {
     "editor.defaultFormatter": "mtxr.sqltools"
-  },
-  "sqltools.connections": [
-    {
-      "mysqlOptions": {
-        "authProtocol": "default",
-        "enableSsl": "Disabled"
-      },
-      "previewLimit": 50,
-      "server": "sejasa-production-slave.cthq7docq4al.us-east-1.rds.amazonaws.com",
-      "port": 3306,
-      "driver": "MySQL",
-      "name": "SejasaDb",
-      "database": "heroku_app_db",
-      "username": "andito",
-      "password": "O5EIZ9f25iA63uzjZfN6jY0C5"
-    }
-  ],
+  },
 }
